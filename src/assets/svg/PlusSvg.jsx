@@ -1,3 +1,19 @@
+// const MinusSvg = ({ className = "" }) => {
+//   return (
+//     <svg className={`${className}`} width="11" height="11" fill="none">
+//       <path
+//         d="M1 5.5H10"
+//         stroke="#ada8c4"
+//         strokeWidth="2"
+//         strokeLinecap="round"
+//       />
+//     </svg>
+//   );
+// };
+
+// export default MinusSvg;
+
+
 const PlusSvg = ({ className = "" }) => {
   return (
     <svg className={`${className} || ""`} width="11" height="11" fill="none">
@@ -10,3 +26,19 @@ const PlusSvg = ({ className = "" }) => {
 };
 
 export default PlusSvg;
+
+
+// const CrossSvg = ({ className = "" }) => {
+//   return (
+//     <svg className={`${className}`} width="11" height="11" fill="none">
+//     <path
+//       d="M1 1L10 10M1 10L10 1"
+//       stroke="#ada8c4"
+//       strokeWidth="2"
+//       strokeLinecap="round"
+//     />
+//   </svg>
+//   );
+// };
+
+// export default CrossSvg;
